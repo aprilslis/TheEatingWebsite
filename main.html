@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Eating Buddy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 </style>
 </head>
 <body>
 
-<h2>CSS Template using Float</h2>
-<p>In this example, we have created a header, three equal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
+<h1>Eating Buddy</h1>
+
 
 <div class="header">
-  <h2>Header</h2>
+  <!--put header here if needed-->
 </div>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">Column</div>
-  <div class="column" style="background-color:#bbb;">Column</div>
-  <div class="column" style="background-color:#ccc;">Column</div>
+
+  <!--left column-->
+  <div class="leftColumn" style="background-color:#aaa;">
+    leftcolmen
+    <!--left button 1-->
+    <form action="/???">
+      <div class="leftButt">
+        <button type="submit">
+          <div class="leftButtonText">Pizza</div>
+        </button>
+        <br>
+
+        <button type="submit">
+          <div class="leftButtonText">Broccoli</div>
+        </button>
+        <br>
+
+        <button type="submit">
+          <div class="leftButtonText">cheese</div>
+        </button>
+        <br>
+      </div>
+    </form>
+  </div>
+
+  <!--middle column-->
+  <div class="midColumn">
+    <!--middle words-->
+    <div class="midWords">
+      <p>Want a buddy to eat with?</p>
+      <p>connect with a supportive community</p>
+    </div>
+
+    <!--middle button-->
+    <div>
+      <!--insert link here for where button leads us to-->
+      <form action="/connect">
+        <div class="connectButton">
+          <button type="submit" style="width:300px;height:150px;">
+            <div class="midButtonText">Connect</div>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--right column-->
+  <div class="column" style="background-color:#ccc;">
+    rightcolmen
+    <form action="/???">
+      <div class="rightButt">
+        <button type="submit">
+          <div class="rightButtonText">bbt</div>
+        </button>
+        <br>
+
+        <button type="submit">
+          <div class="rightButtonText">toast</div>
+        </button>
+        <br>
+
+        <button type="submit">
+          <div class="rightButtonText">egg</div>
+        </button>
+        <br>
+      </div>
+    </form>
+  </div>
+
 </div>
 
 <div class="footer">

@@ -8,9 +8,10 @@ h1{
 * {
     box-sizing: border-box;
   }
-  
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image:url('resource/background.png');
   }
   
   /* Style the header */
@@ -42,6 +43,7 @@ body {
     width: 33.33%;
     padding: 10px;
     height: 500px; /* Should be removed. Only for demonstration */
+    background-color:transparent;
   }
   
   .midWords {
@@ -61,24 +63,7 @@ body {
   .midButtonText{
     font-size:60px;
   }
-  
-  .leftButt{
-    line-height:150px;
-  }
-  
-  .leftButtonText{
-    font-size:30px;
-  }
-  
-  .rightButt{
-    line-height:150px;
-    text-align:right;
-  }
-  
-  .rightButtonText{
-    font-size:30px;
-  }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";

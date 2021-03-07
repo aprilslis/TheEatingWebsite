@@ -129,6 +129,10 @@ body {
     color: #FFFFFF;
     letter-spacing: 4px;
   }
+
+  .connectButton:hover{
+  background-color: #f06525;
+}
   
   .connectButtonPadding {
     padding-left: 80px;

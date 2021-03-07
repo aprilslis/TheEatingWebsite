@@ -183,6 +183,9 @@ body {
  .aboutUsButton:hover{
   background-color: #A5C1C3;
 }
+  .enterButton:hover{
+  background-color: #1E4622;
+}
   
   .connectButtonPadding {
     padding-left: 80px;

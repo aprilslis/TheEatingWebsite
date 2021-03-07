@@ -17,7 +17,7 @@ h1{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url('resource/background.png');
+    background-image:url('resource/backgroundv3.png');
     background-size:cover;
   }
   
@@ -109,7 +109,6 @@ body {
     line-height:20px; 
     padding-top: 50px;
     /*padding-right: 30px;*/
-    padding-bottom: 20px;
     padding-left: 125px;
     }
 

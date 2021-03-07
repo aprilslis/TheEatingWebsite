@@ -113,10 +113,42 @@ body {
     padding-left: 125px;
     }
 
+    .midWordsName {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 4px;
+    color: #603F12;
+    text-align:middle;
+    line-height:20px; 
+    padding-top: 50px;
+    /*padding-right: 30px;*/
+    padding-left: 150px;
+    }
+
   .connectButton{
       width:300px;
       height:100px;
     background-color: #FF9A6B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 70px;
+    border:none;
+    font-size:50px;
+    font-weight: 600;
+    margin: 50px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+  }
+
+    .enterButton{
+      width:300px;
+      height:100px;
+    background-color: #198C24;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -185,3 +217,32 @@ body {
       width: 100%;
     }
   }
+
+  /* input field style */
+
+  input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: transparent;
+    padding-left: 100px;
+  }
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 50px;
+    line-height: 3;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 4px;
+    color: #603F12;
+    text-align:middle;
+}
+
+.no-outline:focus {
+  outline: none;
+}

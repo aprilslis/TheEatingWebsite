@@ -41,8 +41,9 @@ body {
   .header a.logo {
     font: Work Sans;
     color: #603F12;
-    font-size: 35px;
+    font-size: 48px;
     font-weight: bold;
+    letter-spacing: 4px;
   }
   
   .header a:hover {

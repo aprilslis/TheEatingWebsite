@@ -17,10 +17,18 @@ h1{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .backgroundmainpage {
     background-image:url('resource/backgroundv3.png');
     background-size:cover;
   }
-  
+
+  .backgroundconnectpages {
+    background-image:url('resource/background.png');
+    background-size:cover;
+  }
+
   /* Style the header */
   .header {
     text-align: center;

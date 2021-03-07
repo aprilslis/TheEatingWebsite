@@ -18,7 +18,7 @@ body {
   }
   
   .backgroundmainpage {
-    background-image:url('resource/backgroundv4.png');
+    background-image:url('resource/backgroundv3.png');
     background-size:cover;
   }
 
@@ -204,6 +204,10 @@ body {
 }
   .enterButton:hover{
   background-color: #1E4622;
+}
+
+.aboutUsPadding {
+  padding-bottom: 140px;
 }
   
   .connectButtonPadding {

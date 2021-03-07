@@ -3,10 +3,10 @@
 h1{
     font-family: Work Sans;
     font-style: normal;
-    line-height: 65px;
+    line-height: 50px;
     color: #603F12;
-    font-size:40px;
-    letter-spacing: 4px;
+    font-size:36px;
+    letter-spacing: 1px;
 }
 
 
@@ -17,7 +17,20 @@ h1{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url('resource/background.png');
+  }
+  
+  .backgroundmainpage {
+    background-image:url('resource/backgroundv3.png');
+    background-size:cover;
+  }
+
+  .backgroundaboutuspage {
+    background-image:url('resource/aboutUsBackground.png');
+    background-size:cover;
+  }
+
+  .backgroundconnectpages {
+    background-image:url('resource/backgroundv4.png');
     background-size:cover;
   }
   
@@ -79,27 +92,26 @@ body {
   }
 
 /* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
-  }
-  
+
 .leftColumn{
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
   }
   
   .midColumn {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
     background-color:transparent;
   }
+
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
 
   .midWords {
     font-family: Work Sans;
